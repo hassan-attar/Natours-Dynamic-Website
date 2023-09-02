@@ -7,6 +7,7 @@ const compression = require('compression');
 const xss = require('xss-clean');
 const mongoSanatize = require('express-mongo-sanitize');
 const cookieParser = require('cookie-parser');
+const cors = require('cors');
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
@@ -23,6 +24,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 ////////////////////////////////////////////////////////////////////////////////
 // Global Middleware, apply to all requests
 // Set security headers
+app.use(cors());
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3001');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  next();
+});
 app.use(
   helmet({
     crossOriginEmbedderPolicy: false,

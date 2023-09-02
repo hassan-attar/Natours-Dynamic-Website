@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const bookTour = async (tourId) => {
   const stripe = Stripe(
-    'pk_test_51N1LT8E3hDmdiOshJSxoOkIJuzQkyKdSh2jEWpc7Lr2p163XpZADJe1rCCuasCYoC4cxKb0BNMwforRMAhqlOzVk00CxtLRewF'
+    'pk_test_51N27W5IElcfS77CFwLBzbzdx4mLaQdveCBP0x5xIjomExsXYvTcxScXV3j867LPr2a8UJbDQ9XKNdkL7hmg9Vysc00IxD3oJuw'
   );
 
   //get the session from api
