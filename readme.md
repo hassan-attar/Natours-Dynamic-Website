@@ -80,7 +80,7 @@ Here's a glimpse of the Natours Website in action:
 
 ### Stripe checkout for a tour
 
-![Stripe Checkout Session](./gif/natuors-stripe.gif)
+![Stripe Checkout Session](./gif/natours-stripe.gif)
 
 ### User Dashboard
 
