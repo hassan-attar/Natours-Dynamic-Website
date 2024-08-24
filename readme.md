@@ -1,8 +1,8 @@
-# Natours Website
+# Tourify Website
 
 ## Description
 
-The Natours Website is a dynamic web application built with Pug templates and Node.js. It provides an interactive user interface for accessing and interacting with tour data from the Natours API. Users can explore tour details, book tours, manage their bookings, and more.
+The Tourify Website is a dynamic web application built with Pug templates and Node.js. It provides an interactive user interface for accessing and interacting with tour data from the Tourify API. Users can explore tour details, book tours, manage their bookings, and more.
 
 ## Features
 
@@ -38,14 +38,9 @@ The Natours Website is a dynamic web application built with Pug templates and No
 ### Installation
 
 1. **Clone the Repository:**
-   First, clone the Natours Website repository by running the following commands in your terminal:
-
-   ```bash
-   git clone https://github.com/hassan-attar/natours-website.git
-   cd natours-website
-   ```
-
-2. **Install Dependencies:**
+   First, clone the Website repository.
+   
+3. **Install Dependencies:**
    Use npm to install the required dependencies:
 
 ```bash
@@ -58,7 +53,7 @@ npm install
    This step is crucial for the proper functioning of the website and its integration with external services.
 
 4. **Run the Server**
-   To run the Natours Website locally, you'll need to start the Node.js server. Open your terminal and run the following command:
+   To run the Website locally, you'll need to start the Node.js server. Open your terminal and run the following command:
 
 ```bash
 npm start
@@ -69,22 +64,6 @@ You can run the server in development mode by using the following command:
 ```bash
 npm run dev
 ```
-
-## Project Showcase
-
-Here's a glimpse of the Natours Website in action:
-
-### Login, UI and Map
-
-![Login](./gif/natours-login.gif)
-
-### Stripe checkout for a tour
-
-![Stripe Checkout Session](./gif/natours-stripe.gif)
-
-### User Dashboard
-
-![User Dashboard](./gif/natours-dashboard.gif)
 
 ## Acknowledgments
 
